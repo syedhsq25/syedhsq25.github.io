@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Syed Hussain | Cloud, DevOps & ERP Consultant</title>
+    <style>
+        :root {
+            --bg: #0d1117;
+            --card: #161b22;
+            --border: #30363d;
+            --text: #c9d1d9;
+            --heading: #ffffff;
+            --accent: #58a6ff;
+            --tag-bg: #1f242c;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            padding: 2rem 1rem;
+        }
+        .container { max-width: 900px; margin: 0 auto; }
+        header {
+            border-bottom: 1px solid var(--border);
+            padding-bottom: 2rem;
+            margin-bottom: 2.5rem;
+        }
+        h1 { color: var(--heading); font-size: 2.4rem; margin-bottom: 0.4rem; }
+        .tagline { color: var(--accent); font-size: 1.15rem; font-weight: 500; margin-bottom: 1rem; }
+        .bio { max-width: 720px; margin-bottom: 1.5rem; }
+        .links a {
+            display: inline-block;
+            color: var(--heading);
+            background: var(--card);
+            border: 1px solid var(--border);
+            padding: 0.5rem 1rem;
+            border-radius: 6px;
+            text-decoration: none;
+            margin-right: 0.75rem;
+            margin-bottom: 0.5rem;
+            font-size: 0.95rem;
+            transition: border-color 0.2s, color 0.2s;
+        }
+        .links a:hover { border-color: var(--accent); color: var(--accent); }
+        h2 { color: var(--heading); font-size: 1.5rem; margin-bottom: 1.25rem; }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 1.25rem;
+            margin-bottom: 2.5rem;
+        }
+        .card {
+            background: var(--card);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 1.4rem;
+        }
+        .card h3 { color: var(--heading); font-size: 1.15rem; margin-bottom: 0.6rem; }
+        .card p { font-size: 0.95rem; margin-bottom: 1rem; }
+        .tags { display: flex; flex-wrap: wrap; gap: 0.4rem; }
+        .tag {
+            background: var(--tag-bg);
+            border: 1px solid var(--border);
+            color: var(--accent);
+            font-size: 0.8rem;
+            padding: 0.2rem 0.6rem;
+            border-radius: 4px;
+        }
+        footer {
+            border-top: 1px solid var(--border);
+            padding-top: 1.5rem;
+            text-align: center;
+            font-size: 0.9rem;
+            color: #8b949e;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Syed Hussain Sajdeen Quadri</h1>
+            <div class="tagline">Odoo ERP Consultant &bull; Cloud &amp; DevOps Engineer &bull; CompTIA CySA+</div>
+            <p class="bio">
+                Enterprise systems specialist building automated cloud infrastructure, containerized applications, 
+                and custom Odoo ERP solutions. Focused on Linux administration, secure deployments, and business workflow automation.
+            </p>
+            <div class="links">
+                <a href="https://github.com/syedhsq25" target="_blank">GitHub</a>
+                <a href="https://hub.docker.com/u/syedhsq25" target="_blank">Docker Hub</a>
+                <a href="mailto:syedquadri3510@gmail.com">Email Me</a>
+            </div>
+        </header>
+
+        <section>
+            <h2>Core Competencies</h2>
+            <div class="grid">
+                <div class="card">
+                    <h3>Cloud &amp; DevOps</h3>
+                    <p>Provisioning cloud infrastructure, containerizing web apps, and automating deployments across Linux environments.</p>
+                    <div class="tags">
+                        <span class="tag">Linux</span>
+                        <span class="tag">Docker</span>
+                        <span class="tag">AWS</span>
+                        <span class="tag">Azure</span>
+                        <span class="tag">Terraform</span>
+                        <span class="tag">Ansible</span>
+                        <span class="tag">Kubernetes</span>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <h3>Odoo ERP &amp; AI Integration</h3>
+                    <p>End-to-end ERP implementations, custom module development, website deployment, and MCP server integrations.</p>
+                    <div class="tags">
+                        <span class="tag">Odoo ERP</span>
+                        <span class="tag">Odoo.sh</span>
+                        <span class="tag">Python</span>
+                        <span class="tag">SQL</span>
+                        <span class="tag">MCP Servers</span>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <h3>Cybersecurity &amp; Operations</h3>
+                    <p>Threat analysis, network troubleshooting, access control management, and enterprise technical operations.</p>
+                    <div class="tags">
+                        <span class="tag">CompTIA CySA+</span>
+                        <span class="tag">Splunk</span>
+                        <span class="tag">Wireshark</span>
+                        <span class="tag">Nmap</span>
+                        <span class="tag">Networking</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Featured Projects</h2>
+            <div class="grid">
+                <div class="card">
+                    <h3>Containerized Django on Azure</h3>
+                    <p>Built, Dockerized, and deployed a full-stack Django application onto an Azure Linux VM with automated registry publishing.</p>
+                    <div class="tags">
+                        <span class="tag">Django</span>
+                        <span class="tag">Docker Hub</span>
+                        <span class="tag">Azure</span>
+                    </div>
+                </div>
+                <div class="card">
+                    <h3>Odoo AI MCP Connector</h3>
+                    <p>Developed Model Context Protocol (MCP) server integrations bridging Odoo ERP workflows with AI assistant platforms.</p>
+                    <div class="tags">
+                        <span class="tag">Python</span>
+                        <span class="tag">Odoo API</span>
+                        <span class="tag">MCP</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            Hosted on GitHub Pages &bull; Syed Hussain
+        </footer>
+    </div>
+</body>
+</html>
